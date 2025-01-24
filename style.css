@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: montserrat;
+}
+
+#desktop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0;
+    height: 20vh;
+
+}
+h2{
+    font-size: 2.5rem;
+    margin: 0 2rem;
+    color: rgb(39, 39, 36);
+    font-family: fractul;
+}
+h2:hover{
+    cursor:default ;
+}
+#desktop ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 7rem;
+    margin: 0 1.5rem;
+    
+}
+.mobile{
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.mobile h2{
+    top: 3.5rem;
+
+
+}
+.mobile ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 5rem 0;
+
+}
+
+a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+    transition: all 1s ease;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-underline-offset: 1rem;
+    transition: all 1s ease;
+}
+.buger{
+    background-color: rgb(17, 16, 16);
+    width: 3rem;
+    height: 0.5rem;
+    border-radius: 10px;
+
+}
+ span:nth-child(1){
+    translate: 5px 50px;
+    transform: rotate(45deg);
+    /* opacity: 0; */
+
+    
+    /* translate: (4px, 50px); */
+}
+span:nth-child(2){
+    opacity: 0;
+   
+    /* translate: (4px, 50px); */
+}
+span:nth-child(3){
+    translate: 0 0px;
+    transform: rotate(-45deg);
+    opacity: 0;
+
+
+    /* translate: (4px, 50px); */
+}
+.Ham{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: absolute;
+    right: 15rem;
+    top: 2.5rem;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+.sect1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    gap: 5rem;
+    margin-bottom: 4rem;
+}
+.sect-icon{
+    background-color: rgb(3, 233, 118);
+    border-radius: 50%;
+    padding: 1rem;
+    box-shadow: 0 0 7px rgb(17, 16, 16);
+}
+img{
+    width: 20rem;
+    
+}
+h3{
+    font-size: 3rem;
+    font-family:fractul;
+}
+.intro{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 0.4rem;
+}
+.intro span{
+    color: rgb(3, 233, 118);
+}
+.sect-about{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.sect-about p {
+    width: 70vw;
+    line-height: 2;
+    text-align: center;
+}
+.btn{
+    padding: 0.6rem 2rem;
+    margin: 2rem 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+}
+.btn1{
+    margin-left: 6rem;
+}
